@@ -62,11 +62,22 @@ This project explores and models the factors influencing the popularity of songs
 ---
 ## 📎 How to Run
 
-```bash
+    ```bash
 
-# Clone the repository
-git clone https://github.com/Sohan-hub11/Song-Popularity-EDA.git
+    # Clone the repository
+      git clone https://github.com/Sohan-hub11/Song-Popularity-EDA.git
 
-# Open the notebook
-cd Song-Popularity-EDA
-jupyter notebook song_popularity_analysis.ipynb
+    # Open the notebook
+      cd Song-Popularity-EDA
+      jupyter notebook song_popularity_analysis.ipynb
+
+---
+
+## 👨‍💻 Author
+
+Made with ❤️ by [Sohan Samanta](https://github.com/Sohan-hub11)
+
+---
+
+⭐ If you found this helpful, give it a **star** and consider contributing!
+
