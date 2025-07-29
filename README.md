@@ -58,8 +58,11 @@ This project explores and models the factors influencing the popularity of songs
 - Identified that **energy**, **danceability**, and **valence** significantly affect song popularity
 - Built models that could reasonably predict popularity scores
 - Visualized key audio trends across different song types
+- Prediction Accuracy (R² Score): 0.86 → The model explains 86% of the variance in song popularity.
+- Root Mean Squared Error (RMSE): 2.65 → On average, predictions deviate from actual values by about 2.65 units.
 
 ---
+
 ## 📎 How to Run
 
     ```bash
@@ -70,6 +73,16 @@ This project explores and models the factors influencing the popularity of songs
     # Open the notebook
       cd Song-Popularity-EDA
       jupyter notebook song_popularity_analysis.ipynb
+
+---
+
+## 🚀 Future Improvements
+- Hyperparameter Tuning: Apply advanced tuning techniques (e.g., GridSearchCV or RandomizedSearchCV) to further optimize model performance.
+- Deep Learning Integration: Explore neural network architectures (e.g., MLP, LSTM) for capturing complex non-linear relationships in audio features.
+- Additional Features: Incorporate lyrical sentiment analysis, genre metadata, or release time trends for enhanced prediction accuracy.
+- Time-Series Modeling: Factor in temporal dynamics of popularity (e.g., moving averages, trending data) to make dynamic predictions.
+- UI/Deployment: Develop a web app using Flask/Streamlit to allow users to predict song popularity interactively.
+- Cross-Platform Data: Integrate data from other platforms (e.g., YouTube views, TikTok virality) to improve robustness of predictions.
 
 ---
 
